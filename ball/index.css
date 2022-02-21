@@ -6,7 +6,9 @@
 
 body {
   height: 50vh;
+  position: relative;
 }
+
 .ball {
   box-shadow: 0 0 10px grey;
   background: linear-gradient(
@@ -15,9 +17,9 @@ body {
     rgba(128, 128, 128, 0.61),
     rgb(117, 182, 243)
   );
-  width: 20rem;
-  height: 20rem;
-  margin: auto;
-  margin-top: 25vh;
+  position: absolute;
   border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
