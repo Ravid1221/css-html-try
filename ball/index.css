@@ -5,18 +5,20 @@
 }
 
 body {
-  height: 50vh;
+  height: 100vh;
   position: relative;
 }
 
 .ball {
-  box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 50px grey;
   background: linear-gradient(
     -45deg,
     rgb(235, 67, 95),
     rgba(128, 128, 128, 0.61),
     rgb(117, 182, 243)
   );
+  width: 20rem;
+  height: 20rem;
   position: absolute;
   border-radius: 50%;
   left: 50%;
